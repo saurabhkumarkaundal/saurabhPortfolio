@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     background-color: #f4fafa;
   }
   
@@ -17,7 +17,7 @@
     font-size: 21px;
     color: #777777;
     font-weight: 700;
-    margin-top: 48px;
+    margin-top: 6px;
     font-family: "Poppins", sans-serif;
     line-height: 1.5;
   }
