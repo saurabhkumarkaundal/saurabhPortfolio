@@ -9,10 +9,8 @@ class Services extends Component {
         <div class="container">
           <div className="service-header">
             <span className="service-header">MY SERVICES</span>
-            <h1>
-              <b className="service-heading">I can make these awesome things</b>
-            </h1>
-            <span style={{fontSize:"1.25rem"}}>
+              <b className="service-text">I can make these awesome things.</b>
+            <span className="service-text" >
               I understand what your business means to you, your requirements
               considering trends.
             </span>

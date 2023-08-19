@@ -7,8 +7,7 @@
     background: var(--background);
     height: 70px;
     display: flex;
-    justify-content: center;
-    align-items: right;
+    justify-content: end;
     font-size: 1rem;
     padding-top: 1.5vw;
     font-weight: lighter;
@@ -32,11 +31,10 @@
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
-    text-align: center;
     width: 70vw;
     justify-content: end;
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 0rem;
     cursor: pointer;
   }
   
@@ -47,7 +45,7 @@
   }
   
   .nav-links:hover {
-    background-color: var(--hover);
+    background-color: #a6c0da;
     border-radius: 4px;
     color: white;
     transition: all 0.2s ease-out;
@@ -60,7 +58,7 @@
   }
   
   .menu-icon {
-    display: none;
+    /* display: none; */
   }
   
   /* responsive view */
