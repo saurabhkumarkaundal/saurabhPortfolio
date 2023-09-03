@@ -2,29 +2,40 @@ import React, { Component } from "react";
 import { MDBIcon, MDBContainer } from "mdbreact";
 import { Link } from "react-scroll";
 import "./Footer.css";
+import { Button, Col, Row } from "react-bootstrap";
+import { EmailSvg, GitSvg, LinkedInSvg } from "../../assets/svg/social/ContactSvg";
 
 class Footer extends Component {
   render() {
     return (
       <div className="Footer" id="footer">
         <h4 className="follow">Reach out to me at</h4>
-        <MDBContainer
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-evenly"
-          }}
-        >
-          <a
-            href="https://www.linkedin.com/in/saurabh-kumar-kaundal-6bb471201/"
-            className="social-logo"
-          >
-            <MDBIcon fab icon="linkedin-in" />
-          </a>
-          <a href="https://github.com/saurabhkumarkaundal" className="social-logo">
-            <MDBIcon fab icon="github" />
-          </a>
-        </MDBContainer>
+        <Row>
+          <Col className="" style={{display:"flex"}}>
+            <div className="m-2" style={{ margin:"1rem"}}>
+              <a href="mailto:saurabhkaundal94@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Button  title="saurabhkaundal94@gmail.com" style={{border:"none", cursor:"pointer", background:"content-box"}}>
+                  <EmailSvg/>
+                </Button>
+              </a>
+            </div>
+            <div className="m-2" style={{ margin:"1rem"}}>
+            <a href="https://www.linkedin.com/in/saurabh-kumar-kaundal-6bb471201/" target="_blank" rel="noopener noreferrer">
+                <Button style={{border:"none", cursor:"pointer",background:"content-box"}} title="Visit my LinkenIn">
+                  <LinkedInSvg/>
+                </Button>
+              </a>
+            </div>
+            
+            <div className="m-2" style={{ margin:"1rem"}}>
+            <a href="https://github.com/saurabhkumarkaundal" target="_blank" rel="noopener noreferrer">
+                <Button style={{border:"none", cursor:"pointer",background:"content-box"}} title="My other projects">
+                  <GitSvg/>
+                </Button>
+              </a>
+            </div>
+          </Col>
+        </Row>
         <span>
           Designed by{" "}
           <a className="my-name" href="https://github.com/saurabhkumarkaundal">

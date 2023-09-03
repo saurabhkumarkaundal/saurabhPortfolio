@@ -6,6 +6,7 @@ import { BrowserRouter as Routex, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Footer from "./Component/Footer/Footer";
 import Skills from "./Component/Skills/Skills";
+import Resume from "./Component/Resume/Resume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Services />
         <About />
+        <Resume/>
         <Skills/>
         <Footer />
       </div>

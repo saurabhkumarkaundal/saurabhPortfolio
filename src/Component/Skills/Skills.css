@@ -78,7 +78,7 @@
 
 @media (min-width: 992px) and (max-width: 1380px) {
     .skills {
-        padding: 2rem 1rem 1rem 1rem;
+        padding: 0rem 1rem 1rem 1rem;
     }
     .skillsContainer {
         /* padding: 1.5rem; */
